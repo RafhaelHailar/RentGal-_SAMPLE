@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>RentGal!</title>
+    <link rel="icon" href="./images/her.png"/>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="component navbar">
+        <nav>
+            <div class="nav-wrapper">
+              <div>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="font-size:3rem;">menu</i></a>
+                <div class="logo">
+                  <a href="#">RentGal!</a>
+                </div> 
+                <div>
+                  <ul id="nav-mobile" class="hide-on-med-and-down">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#product">Ladies</a></li>
+                    <li><a href="#restriction">Restrictions</a></li>
+                  </ul>
+                </div> 
+                <div class="action">
+                  <a href="#">Sign In</a>
+                </div> 
+              </div>
+            </div>
+        </nav>
+    </div>
+    <!-- END OF NAVBAR -->
+
+    <!-- SIDENAV -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#product">Ladies</a></li>
+      <li><a href="#restriction">Restrictions</a></li>
+    </ul>
+    <!-- END OF SIDENAV  -->
+
+    <!-- HEADER -->
+    <div id="header" class="scrollspy">
+      <div class="background">
+        <img src="./images/header-bg2.jpg" alt="" width="100%" class="back">
+        <img src="./images/header-bg.jpg" alt="" >
+      </div>
+      <div class="row content">
+        <div class="col s12 l6 offset-l5 offset-s1 " style="margin-top: 15rem;margin-left: 45rem;">
+          <h1>Never felt a Woman?</h1>
+          <p>The ghost prisoner, a murderer, wishes he was invisible, sheer air,
+            already dead. His narrow bed washes him away to dream escape
+            through holy gaps that open in the grin of his small son.
+            Lost teeth offer him a freedom so absurd he wakes and laughs. </p>
+          <button>Rent Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- START OF MAIN CONTENTS -->
+    <div id="main">
+      <!-- SERVICES -->
+      <div class="component scrollspy" id="service">
+        <div class="cards-container">
+          <div>
+            <div class="card">
+                  <div>
+                    <iconify-icon icon="mdi:heart-search"></iconify-icon>
+                    <h4>SEARCH</h4>
+                  </div>
+                  <p>We offer variety of beautiful ladies to choose , so you can have whoever you desire.</p>
+            </div>
+          </div>  
+            <div>
+              <div class="card">
+                  <div>
+                    <iconify-icon icon="mdi:man-woman"></iconify-icon>
+                    <h4>DATE</h4>
+                  </div>
+                  <p>Experience how it feels to be with
+                    someone that wanted to share
+                    their feelings with you.  </p>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                  <div>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <h4>LOVE</h4>
+                  </div>
+                  <p>It might be where you will find 
+                    the one the you are looking for,
+                    but don’t expect too much.  </p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- END OF SERVICES -->
+      
+      <div id="product" class="component scrollspy">
+        <div>
+          <div class="section-name" >
+            <h3 class="center-align">Featured Ladies</h3>
+            <h5 class="center-align">LADIES OF THE WEEK</h5>
+          </div>
+          <div class="right-align view-all-pc">
+            <a href="#!" class="right-align" style="font-size: 1.1rem;text-decoration: underline;color: black;">View All Ladies</a>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-1.jpg" alt="" style="width: 100%;margin-top: -2rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Hugas A. Peuit</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-2.jpg" alt="" style="width: 100%;margin-top: -2rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Eu Thawt </h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-3.jpg" alt="" style="width: 100%;margin-top: -2rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Van Tot Pooweat</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-4.jpg" alt="" style="width: 100%;margin-top: -2rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Huala Lee Geo</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+          </div>
+          <div class="center-align view-all-mobile ">
+            <a href="#!" class="right-align" style="font-size: 1.8rem;text-decoration: underline;color: black;">View All Ladies</a>
+          </div>
+        </div>
+        <div>
+          <div class="section-name" >
+            <h3 class="center-align">Ladies Near You</h3>
+            <h5 class="center-align">FIND LADY NEARBY</h5>
+          </div>
+          <div class="right-align view-all-pc">
+            <a href="#!" class="right-align" style="font-size: 1.1rem;text-decoration: underline;color: black;">View All Ladies</a>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-5.jpg" alt="" style="width: 100%;margin-top: -5rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Boa O. Bielite</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-6.jpg" alt="" style="width: 100%;margin-top: -2rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Thea Dor</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-7.jpg" alt="" style="width: 100%;margin-top: -8rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Sea Bo. Geathawt</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/lady-8.jpg" alt="" style="width: 100%;margin-top: -2rem;">
+                <button class="heart-it"> <iconify-icon icon="ph:heart-fill"></iconify-icon></button>
+              </div>
+              <div class="card-content">
+                <h6 class="name">Thae E. Seort</h6>
+                <div class="price">$50/Hour</div>
+                <div class="heartings">
+                  <div class="hearts">
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                    <iconify-icon icon="ph:heart-fill"></iconify-icon>
+                  </div>
+                  <span class="heart-count">(3,000)</span>
+                </div>
+                <p class="details">I like to jump to the rain and feel the water hitting my beautiful face.</p>
+                <button>Add to your heart</button>
+              </div>
+            </div>
+            
+          </div>
+          <div class="center-align view-all-mobile ">
+            <a href="#!" class="right-align" style="font-size: 1.8rem;text-decoration: underline;color: black;">View All Ladies</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- REVIEWS -->
+      <div id="review" class="component">
+        <br>
+        <h6>Read what our customers say</h6>
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="card carousel-item">
+                <div>
+                  <iconify-icon icon="icon-park-outline:quote"></iconify-icon><br>
+                  <p>Her wonderful scent still etched to  my mind, the way she laugh changed my view of life now I wanted to become the best version of myself and start being a useful part of society. </p>
+                  <div class="user-profile">
+                    <div class="image">
+                      <img src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2021-10/shutterstock_121336534.jpg?itok=ArzAqVCD" alt="" width="100%">
+                    </div>
+                    <div class="name">
+                      <div>Iski Bidapdap</div>
+                      <div>Guy Who Ask</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card carousel-item">
+                <div>
+                  <iconify-icon icon="icon-park-outline:quote"></iconify-icon><br>
+                  <p>Miyakisa Sauri have a very soft skin, she looks like a dream I wouldn’t be able to reach but with this service I was able to obtain her for a day and it feels like a dream come true. </p>
+                  <div class="user-profile">
+                    <div class="image">
+                      <img src="https://i1.sndcdn.com/artworks-000594363981-i3gbvk-t500x500.jpg" alt="" width="100%">
+                    </div>
+                    <div class="name">
+                      <div>Beoul Zack Guay</div>
+                      <div>Weird Guy</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card carousel-item">
+                <div>
+                  <iconify-icon icon="icon-park-outline:quote"></iconify-icon><br>
+                  <p>THANK YOU RENT GAL! I was able to smell beautiful womans FEET now I could be better citizen because of her feet my life become hundred times better.<br/><br/></p>
+                  <div class="user-profile">
+                    <div class="image">
+                      <img src="data:image/jpeg;base64,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" alt="" width="100%">
+                    </div>
+                    <div class="name">
+                      <div>Pepero Pero</div>
+                      <div>Feet Guy</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card carousel-item">
+                <div>
+                  <iconify-icon icon="icon-park-outline:quote"></iconify-icon><br>
+                  <p>Miyakisa Sauri have a very soft skin, she looks like a dream I wouldn’t be able to reach but with this service I was able to obtain her for a day and it feels like a dream come true. </p>
+                  <div class="user-profile">
+                    <div class="image">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvnQvr6AQmDQ27mql6ekVM5lPiRWtmR6LQxA&usqp=CAU" alt="" width="100%">
+                    </div>
+                    <div class="name">
+                      <div>Tommy Is It?</div>
+                      <div>Weird Streamer Gay</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!-- END OF REVIEWS -->
+      
+      <!-- RESTRICTION -->
+      <div id="restriction" class="component scrollspy">
+        <div class="section-name">
+          <h3 class="center-align">What We Ask</h3>
+          <h5 class="center-align">PLEASE FOLLOW</h5>
+        </div>
+        <div class="cards-container">
+          <div class="card">  
+            <div>
+              <img src="./images/no-kissing.png" alt="" width="45%">
+              <h5>NO KISSING!</h5>
+              <p>Kissing our ladies only allowed with their permission so always ask first.</p>
+            </div>
+          </div>
+          <div class="card">  
+            <div>
+              <img src="./images/no-sex-act.png" alt="" width="45%">
+              <h5>NO SEXUAL ACT!</h5>
+              <p>We don’t allow sexual affair to happen between the ladies and our clients.</p>
+            </div>
+          </div>
+          <div class="card">  
+            <div>
+              <img src="./images/respect.png" alt="" width="35%" style="margin-top: .8rem;margin-bottom: 1.1rem;">
+              <h5>BE RESPECTFUL!</h5>
+              <p>Kissing our ladies only allowed with their permission so always ask first.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cards-container" style="margin-top: 5rem">
+          <div class="card">  
+            <div>
+              <img src="./images/no-forcing.png" alt="" width="45%">
+              <h5>NO FORCING!</h5>
+              <p>Kissing our ladies only allowed with their permission so always ask first.</p>
+            </div>
+          </div>
+          <div class="card">  
+            <div>
+              <img src="./images/no-refund.png" alt="" width="45%">
+              <h5>NO REFUND!</h5>
+              <p>We don’t allow sexual affair to happen between the ladies and our clients.</p>
+            </div>
+          </div>
+          <div class="card">  
+            <div>
+              <img src="./images/no-hurt-feelings.png" alt="" width="35%" style="margin-top: .8rem;margin-bottom: 1.1rem;">
+              <h5>NO HURT FEELINGS!</h5>
+              <p>Kissing our ladies only allowed with their permission so always ask first.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!-- END OF MAIN CONTENTS -->
+
+    <!-- FOOTER -->
+    <footer class="page-footer" >
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col l4 s12" style="padding: 0;font-size: 1.1rem;">
+            <h5 class="white-text" style="margin-bottom: 3.5rem;font-size: 1.8rem;">r e n t g a l !</h5>
+            <h6 style="font-weight: 600;margin: 0;font-size: 1.2rem;">Make Yourself Happy</h6>
+            <p style="margin: .5rem 0 1rem 0;">Stay inform of new beatiful ladies that we offer!</p>
+            <form action="">
+              <div>
+                <iconify-icon icon="ic:baseline-email"></iconify-icon>
+                <input type="text">
+                <span>Enter your Email</span>
+              </div>
+              <input type="submit" value="Subscribe">
+            </form>
+          </div>
+          <div class="col l6 offset-l2 s12">
+            <div class="links">
+              <div>
+                <ul>
+                  <li class="title"><span class="grey-text text-lighten-3">Ladies</span></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Your Area</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Discounts</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Secret</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li class="title"><span class="grey-text text-lighten-3">Company</span></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Careers</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">News</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li class="title"><span class="grey-text text-lighten-3">Resources</span></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Blogs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Newsletter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Help center</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Support</a></li>
+                </ul>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      <hr>
+      <div class="right-align copyright">
+        © RentGal!. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true,
+            padding: 80
+          });
+
+          $('.scrollspy').scrollSpy();
+
+          $('.sidenav').sidenav();
+        });
+     </script>
+</body>
+</html>
