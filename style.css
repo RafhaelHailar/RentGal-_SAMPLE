@@ -51,6 +51,11 @@ button {
     border: none;
     color: white;
     cursor: pointer;
+    transition: .5s;
+}
+
+.nav-wrapper .action a:hover, #header .content button:hover {
+    background: #701010;
 }
 
 #header {
@@ -199,6 +204,7 @@ button {
 }
 
 #product .card .heart-it iconify-icon {
+    transition: .5s;
     filter: drop-shadow(0 0 1px black) drop-shadow(0 0 1px black);
 }
 
@@ -241,8 +247,18 @@ button {
      padding: .5rem 1rem;
      background: white;
      font-size: .8rem;
+     transition: .5s;
 }
 
+#product .card .card-content button:hover{
+    background: rgba(255,0,52,0.3);
+    border: 1px solid rgba(255,0,52,.3);
+    color: white;
+}
+
+#product .card .heart-it iconify-icon:hover {
+    color: red;
+}
 
 #product .card .card-content .price {
     position: absolute;
