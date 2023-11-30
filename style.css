@@ -513,7 +513,35 @@ nav {
 
 }
 
+@media only screen and (max-width: 1200px) {
+    #header {
+        height: 100vh;
+    }
+
+     #header .background {
+        width: 300%;
+    }
+
+    #header .background img:not(.back) {
+        margin-left: -5rem;
+        margin-top: 2rem !important;
+    }
+
+    #header .content > div {
+        width: 80% !important;
+        margin-left: 15%;
+    }
+
+    #review .card {
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width:768px){
+    .navbar {
+        padding: 0 5rem !important;
+     }
+
     #product .card {
         display: none;
     }
@@ -529,9 +557,14 @@ nav {
     #product .card:nth-child(3) {
         display: block;
     }
+
 }
 
 @media only screen and (min-width:600px){
+    .navbar {
+       padding: 0 0;
+    }
+
     #product .card {
         display: none;
     }
